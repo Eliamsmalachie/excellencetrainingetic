@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXCELLENCE TRAINING ETIC - Formation Développeur Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>EXCELLENCE TRAINING ETIC</h1>
+                <p>Centre de Formation Professionnelle</p>
+            </div>
+            <nav class="nav">
+                <a href="#accueil">Accueil</a>
+                <a href="#formation">Formation</a>
+                <a href="#programme">Programme</a>
+                <a href="#inscription">Inscription</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">DEVENEZ DÉVELOPPEUR WEB EN 2 SEMAINES !</h1>
+                <div class="tech-stack">
+                    <span class="tech-item">HTML</span>
+                    <span class="tech-item">CSS</span>
+                    <span class="tech-item">JAVASCRIPT</span>
+                    <span class="tech-item">PYTHON</span>
+                </div>
+                <p class="hero-description">
+                    Acquérir des compétences solides en développement web pour créer des sites modernes, dynamiques et professionnels.
+                </p>
+                <a href="#inscription" class="cta-button">S'INSCRIRE MAINTENANT</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation Details -->
+    <section id="formation" class="formation-details">
+        <div class="container">
+            <h2>Détails de la Formation</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Lieu</h3>
+                    <p>Abidjan Abobo N'dotre<br>Institut Supérieur Saint Cyrile<br><small>Non loin du commissariat du 41ème arrondissement</small></p>
+                </div>
+                <div class="detail-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Dates</h3>
+                    <p><strong>1ère semaine:</strong><br>Lundi 30 juin - Jeudi 3 juillet<br><strong>2ème semaine:</strong><br>Lundi 7 juillet - Vendredi 11 juillet</p>
+                </div>
+                <div class="detail-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horaires</h3>
+                    <p>4h/jour<br>9h30 à 13h</p>
+                </div>
+                <div class="detail-card">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Prix</h3>
+                    <p>20.000 FCFA<br><small>Paiement en 2 tranches possible</small></p>
+                </div>
+            </div>
+            
+            <!-- Important Notice -->
+            <div class="important-notice">
+                <div class="notice-content">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <div>
+                        <h3>Important !</h3>
+                        <p>Chaque participant doit venir avec une <strong>clé USB de 64 GB minimum</strong> pour sauvegarder les projets et ressources de formation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programme -->
+    <section id="programme" class="programme">
+        <div class="container">
+            <h2>PROGRAMME ACCÉLÉRÉ</h2>
+            <div class="programme-list">
+                <div class="programme-item">
+                    <div class="programme-number">01</div>
+                    <div class="programme-content">
+                        <h3>Introduction HTML / CSS / JS</h3>
+                        <p>Maîtrisez les bases du développement web front-end</p>
+                    </div>
+                </div>
+                <div class="programme-item">
+                    <div class="programme-number">02</div>
+                    <div class="programme-content">
+                        <h3>Création d'un site portfolio personnel</h3>
+                        <p>Développez votre propre site web professionnel</p>
+                    </div>
+                </div>
+                <div class="programme-item">
+                    <div class="programme-number">03</div>
+                    <div class="programme-content">
+                        <h3>Formulaires interactifs & mini blog</h3>
+                        <p>Créez des interfaces utilisateur dynamiques</p>
+                    </div>
+                </div>
+                <div class="programme-item">
+                    <div class="programme-number">04</div>
+                    <div class="programme-content">
+                        <h3>Animation & responsive design</h3>
+                        <p>Rendez vos sites attractifs et adaptatifs</p>
+                    </div>
+                </div>
+                <div class="programme-item">
+                    <div class="programme-number">05</div>
+                    <div class="programme-content">
+                        <h3>Mise en ligne de votre site web</h3>
+                        <p>Déployez vos projets sur internet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inscription Form -->
+    <section id="inscription" class="inscription">
+        <div class="container">
+            <h2>Formulaire d'Inscription</h2>
+            <form class="inscription-form" id="inscriptionForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nom">Nom *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="prenom">Prénom *</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="niveau">Niveau en informatique</label>
+                    <select id="niveau" name="niveau">
+                        <option value="">Sélectionnez votre niveau</option>
+                        <option value="debutant">Débutant</option>
+                        <option value="intermediaire">Intermédiaire</option>
+                        <option value="avance">Avancé</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="paiement">Mode de paiement préféré</label>
+                    <select id="paiement" name="paiement">
+                        <option value="">Sélectionnez le mode de paiement</option>
+                        <option value="integral">Paiement intégral (20.000 FCFA)</option>
+                        <option value="tranches">Paiement en 2 tranches (10.000 FCFA/semaine)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="motivation">Motivation (optionnel)</label>
+                    <textarea id="motivation" name="motivation" rows="4" placeholder="Pourquoi souhaitez-vous suivre cette formation ?"></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="conditions" name="conditions" required>
+                    <label for="conditions">J'accepte les conditions générales de la formation *</label>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="usb-confirm" name="usb-confirm" required>
+                    <label for="usb-confirm">Je confirme avoir une clé USB de 64 GB minimum *</label>
+                </div>
+
+                <button type="submit" class="submit-button">
+                    <i class="fas fa-paper-plane"></i>
+                    ENVOYER MA CANDIDATURE
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EXCELLENCE TRAINING ETIC</h3>
+                    <p>Votre partenaire pour une carrière réussie dans le développement web</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Abidjan Abobo N'dotre, Institut Supérieur Saint Cyrile</p>
+                    <p><i class="fas fa-phone"></i> +225 0778626777</p>
+                    <p><i class="fas fa-envelope"></i> tizieeliemalachie@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Excellence Training ETIC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button" id="whatsappBtn">
+        <i class="fab fa-whatsapp"></i>
+        <span>Contactez-nous</span>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <div class="modal-body">
+                <i class="fas fa-check-circle"></i>
+                <h3>Inscription réussie !</h3>
+                <p>Votre candidature a été envoyée avec succès. Nous vous contacterons bientôt.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
